@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Spearfishing Game</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	</style>
+</head>
+<body>
+	<div id="gameStage">
+		<div id="lifeBar">
+			<div class="lifeBar">4&nbsp;Health</div>
+		</div>
+		<div id="airBar">
+			<div class="airBar">15&nbsp;Seconds</div>
+		</div>
+		<div class="airAlert">Low Air!</div>
+		<div class="winnerAlert">WINNER!</div>
+		<div id="gunLvl">Gun Lvl: 1</div>
+		<div id="score">| Points: 0</div>
+		<div id="pause">Pause</div>
+		<div id="diver"></div>
+		<div class="intro">
+			<h1>Spearfisher</h1>
+			<div class="threeColTargets">
+				<img src="images/targetS1.png" alt="1" width="278" height="184">
+				<img src="images/targetS2.png" alt="5" width="278" height="184">
+				<img src="images/targetS3.png" alt="10" width="278" height="184">
+			</div>
+			<p>Spear fish with your speargun for different points</p>
+			<p>Sharks will bite you and take away 1/4 health</p>
+			<p>You have 15 seconds before air runs out</p>
+			<div class="button start">Start Game</div>
+		</div>
+	</div>
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="js/jquery.spritely.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.transit/0.9.12/jquery.transit.min.js"></script>
+	<script src="js/script2.js"></script>
+</body>
+</html>
